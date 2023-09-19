@@ -1527,6 +1527,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.npmjs.org/@supercharge/promise-pool/-/promise-pool-3.0.0.tgz",
+        "sha512": "015f64d46d6bef7a69ab9cf4f335ef6c5174b24beace0479640558432fb00ea4207a17bbcc32d781e128e048ac292292d9a2be6a8162dbb833630d849f2fa0ee",
+        "dest-filename": "64d46d6bef7a69ab9cf4f335ef6c5174b24beace0479640558432fb00ea4207a17bbcc32d781e128e048ac292292d9a2be6a8162dbb833630d849f2fa0ee",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/01/5f"
+    },
+    {
+        "type": "file",
         "url": "https://registry.npmjs.org/@surma/rollup-plugin-off-main-thread/-/rollup-plugin-off-main-thread-2.2.3.tgz",
         "sha512": "951f2affd5bb859a4c5b078d880294ecd41eac19f34102ef8bcaa74c353f7f122d3e1b5954c6cf57795b0b08e12253417bd05baf957e287b21bd6995486f5cc5",
         "dest-filename": "2affd5bb859a4c5b078d880294ecd41eac19f34102ef8bcaa74c353f7f122d3e1b5954c6cf57795b0b08e12253417bd05baf957e287b21bd6995486f5cc5",
@@ -10144,6 +10151,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.npmjs.org/toad-scheduler/-/toad-scheduler-3.0.0.tgz",
+        "sha512": "0589ab391bda1a68f38a2affadaf2a0f7a8029ccc9bdea8ae5938eff09fba12e6a2c8e2289b3b36b70c11a0bbe130369f737650532927993e6c59c731b2d5dc7",
+        "dest-filename": "ab391bda1a68f38a2affadaf2a0f7a8029ccc9bdea8ae5938eff09fba12e6a2c8e2289b3b36b70c11a0bbe130369f737650532927993e6c59c731b2d5dc7",
+        "dest": "flatpak-node/npm-cache/_cacache/content-v2/sha512/05/89"
+    },
+    {
+        "type": "file",
         "url": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz",
         "sha512": "a39b123ca12483f0c840d987e37574fee7ab2eba7355e764521f2d18dbda797a5fa6ec2329e9e54a8c7fd8efc14e5654b447be246eece58844cfad3c3e500744",
         "dest-filename": "123ca12483f0c840d987e37574fee7ab2eba7355e764521f2d18dbda797a5fa6ec2329e9e54a8c7fd8efc14e5654b447be246eece58844cfad3c3e500744",
@@ -15368,6 +15382,12 @@
         "contents": "6d8b2c0b892a0d7950ac0acb7e081b8950887818\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/path-equal/-/path-equal-1.2.5.tgz\", \"integrity\": \"sha512-i73IctDr3F2W+bsOWDyyVm/lqsXO47aY9nsFZUjTT/aljSbkxHxxCoyZ9UUrM8jK0JVod+An+rl48RCsvWM+9g==\", \"time\": 0, \"size\": 3975, \"metadata\": {\"url\": \"https://registry.npmjs.org/path-equal/-/path-equal-1.2.5.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "fc476f85b50c2ed1cf94b981829ebf5e14261ad259e0364e365e63dee7e7",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/8e/a3"
+    },
+    {
+        "type": "inline",
+        "contents": "6da7bc254a5e161d5618f51819849c7c3faceca4\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/@supercharge/promise-pool/-/promise-pool-3.0.0.tgz\", \"integrity\": \"sha512-AV9k1G1r73ppq5z08zXvbFF0skvqzgR5ZAVYQy+wDqQgehe7zDLXgeEo4EisKSKS2aK+aoFi27gzYw2Eny+g7g==\", \"time\": 0, \"size\": 11778, \"metadata\": {\"url\": \"https://registry.npmjs.org/@supercharge/promise-pool/-/promise-pool-3.0.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "7928a1eedd290ff743a977f9028d4b90cfbf8dd8bb0e668c1f60b7074b9d",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/59/e9"
     },
     {
         "type": "inline",
@@ -20732,6 +20752,12 @@
         "contents": "fc0e42f94eb8fc4ea1b6b465f49b36d56c285da6\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/domutils/-/domutils-1.7.0.tgz\", \"integrity\": \"sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==\", \"time\": 0, \"size\": 6513, \"metadata\": {\"url\": \"https://registry.npmjs.org/domutils/-/domutils-1.7.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
         "dest-filename": "007e212153ff3f202e335b8e1c230e828c3e3f95c06f4fed344dd680bb59",
         "dest": "flatpak-node/npm-cache/_cacache/index-v5/12/b2"
+    },
+    {
+        "type": "inline",
+        "contents": "fc18acd9cf93df006b054a29a51179bcc3fdbc76\t{\"key\": \"make-fetch-happen:request-cache:https://registry.npmjs.org/toad-scheduler/-/toad-scheduler-3.0.0.tgz\", \"integrity\": \"sha512-BYmrORvaGmjziir/ra8qD3qAKczJveqK5ZOO/wn7oS5qLI4iibOza3DBGgu+EwNp9zdlBTKSeZPmxZxzGy1dxw==\", \"time\": 0, \"size\": 12458, \"metadata\": {\"url\": \"https://registry.npmjs.org/toad-scheduler/-/toad-scheduler-3.0.0.tgz\", \"reqHeaders\": {}, \"resHeaders\": {}}}",
+        "dest-filename": "309a0b1a6ed849d32310cc34475cda9bbf3a6f4af1575850dbcb8c928b18",
+        "dest": "flatpak-node/npm-cache/_cacache/index-v5/55/d5"
     },
     {
         "type": "inline",
