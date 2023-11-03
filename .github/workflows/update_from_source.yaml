@@ -1,0 +1,51 @@
+name: Update And Commit
+
+on: workflow_dispatch
+
+jobs:
+  buildpr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup python
+        uses: actions/setup-python@v4
+        with:
+          # Semantic version range syntax or exact version of a Python version
+          python-version: '3.11.x'
+
+      - name: Setup node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.16.x'
+
+      - name: Setup pipx
+        uses: CfirTsabari/actions-pipx@v1
+
+      - name: Install OS dependencies
+        run: sudo apt-get update && sudo apt-get install -y flatpak-builder
+
+      - name: Checkout flatpak-node-generator
+        uses: actions/checkout@v4
+        with:
+          repository: flatpak/flatpak-builder-tools
+          path: tools
+          token: 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
+
+      - name: Install flatpak-node-generator
+        run: pipx install tools/node && pipx ensurepath
+
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          repository: foxxmd/multi-scrobbler
+          path: repo
+          token: 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
+
+      - name: Build generated-sources.json
+        run: /root/.local/bin/flatpak-node-generator npm repo/package-lock.json
+
+      - name: Check path files
+        run: ls $GITHUB_WORKSPACE
+
+      # TODO diff $GITHUB_WORKSPACE/generated-source.json with repo
+      # TODO pull io.github.foxxmd.multiscrobbler from repo and replace branch/commit based on branch dispatched from
+      # https://github.com/orgs/community/discussions/26323
