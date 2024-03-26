@@ -38,6 +38,10 @@ modules:
       # copy node_modules needed to run app
       - cp -r node_modules/. /app/lib/node_modules
 
+      # even if not using package.json for scripts it must be present
+      # so that tsx/node runs as esm (needs to see "type": "module" in file)
+      - cp package.json /app/lib/package.json
+
       # copy app files to runtime dir
       - cp -r dist/. /app/lib/dist
       - cp -r src/. /app/lib/src
@@ -60,8 +64,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FoxxMD/multi-scrobbler
-        tag: 0.6.4
-        commit: a1acab0feddad3f1771cbb266418163101400384
+        tag: 0.7.0
+        commit: bc517e0cb0bc578c10d0ae859b05ef8f87139d2b
         dest: main
       # Wrapper to launch the app
       - type: script
