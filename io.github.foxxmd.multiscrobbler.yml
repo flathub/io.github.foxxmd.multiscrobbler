@@ -64,8 +64,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/FoxxMD/multi-scrobbler
-        tag: 0.7.0
-        commit: bc517e0cb0bc578c10d0ae859b05ef8f87139d2b
+        tag: 0.7.1
+        commit: 0dcd049453fcbb0e8cadfe8978f5d822b069ce1d
         dest: main
       # Wrapper to launch the app
       - type: script
