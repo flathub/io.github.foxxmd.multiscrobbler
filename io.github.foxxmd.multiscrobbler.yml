@@ -65,7 +65,7 @@ modules:
       - type: git
         url: https://github.com/FoxxMD/multi-scrobbler
         branch: master
-        commit: 7c7d710cd33c16c77e6b28b07e46aa3bc18e67d2
+        commit: 4694ce45a7d2c36167dd7d57962d94d646059e8b
         dest: main
       # Wrapper to launch the app
       - type: script
@@ -83,4 +83,5 @@ modules:
             fi
           - cd /app/lib && CONFIG_DIR=$XDG_CONFIG_HOME LOG_DIR=$XDG_CONFIG_HOME IS_LOCAL=true NODE_ENV=production node_modules/.bin/tsx src/backend/index.ts
 
-      - generated-sources.json
+      - generated-sources.0.json
+      - generated-sources.1.json
