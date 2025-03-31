@@ -1,0 +1,3 @@
+{
+    "end-of-life": "The flathub version of Multi-Scrobbler is no longer maintained because the build process is too cumbersome and runtime is impossible to debug without intimate knowledge of flatpak internal and GDB debugging. Multi-scrobbler is still actively developed and maintained for Docker and NodeJS."
+}
